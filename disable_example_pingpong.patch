@@ -1,0 +1,24 @@
+diff --git a/rclc_examples/CMakeLists.txt b/rclc_examples/CMakeLists.txt
+index 8044473..3919d14 100644
+--- a/rclc_examples/CMakeLists.txt
++++ b/rclc_examples/CMakeLists.txt
+@@ -53,8 +53,8 @@ ament_target_dependencies(example_parameter_server rclc rclc_parameter)
+ add_executable(example_sub_context src/example_sub_context.c)
+ ament_target_dependencies(example_sub_context rcl rclc std_msgs)
+ 
+-add_executable(example_pingpong src/example_pingpong.cpp)
+-ament_target_dependencies(example_pingpong rcl rclc std_msgs)
++# add_executable(example_pingpong src/example_pingpong.cpp)
++# ament_target_dependencies(example_pingpong rcl rclc std_msgs)
+ 
+ install(TARGETS
+   example_executor
+@@ -65,7 +65,7 @@ install(TARGETS
+   example_client_node
+   example_parameter_server
+   example_sub_context
+-  example_pingpong
++  # example_pingpong
+   DESTINATION lib/${PROJECT_NAME}
+ )
+ 
