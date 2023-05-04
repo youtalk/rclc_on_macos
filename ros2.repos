@@ -407,3 +407,7 @@ repositories:
     type: git
     url: https://github.com/ros2/yaml_cpp_vendor.git
     version: humble
+  ros2/rclc:
+    type: git
+    url: https://github.com/ros2/rclc.git
+    version: humble
