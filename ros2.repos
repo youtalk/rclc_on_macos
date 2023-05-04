@@ -303,10 +303,10 @@ repositories:
     type: git
     url: https://github.com/ros2/rmw_dds_common.git
     version: humble
-  ros2/rmw_fastrtps:
-    type: git
-    url: https://github.com/ros2/rmw_fastrtps.git
-    version: humble
+  # ros2/rmw_fastrtps:
+  #  type: git
+  #  url: https://github.com/ros2/rmw_fastrtps.git
+  #  version: humble
   ros2/rmw_implementation:
     type: git
     url: https://github.com/ros2/rmw_implementation.git
@@ -315,22 +315,22 @@ repositories:
     type: git
     url: https://github.com/ros2/ros2_tracing.git
     version: humble
-  ros2/ros2cli:
-    type: git
-    url: https://github.com/ros2/ros2cli.git
-    version: humble
-  ros2/ros2cli_common_extensions:
-    type: git
-    url: https://github.com/ros2/ros2cli_common_extensions.git
-    version: humble
-  ros2/ros_testing:
-    type: git
-    url: https://github.com/ros2/ros_testing.git
-    version: humble
-  ros2/rosbag2:
-    type: git
-    url: https://github.com/ros2/rosbag2.git
-    version: humble
+  # ros2/ros2cli:
+  #   type: git
+  #   url: https://github.com/ros2/ros2cli.git
+  #   version: humble
+  # ros2/ros2cli_common_extensions:
+  #   type: git
+  #   url: https://github.com/ros2/ros2cli_common_extensions.git
+  #   version: humble
+  # ros2/ros_testing:
+  #   type: git
+  #   url: https://github.com/ros2/ros_testing.git
+  #   version: humble
+  # ros2/rosbag2:
+  #   type: git
+  #   url: https://github.com/ros2/rosbag2.git
+  #   version: humble
   ros2/rosidl:
     type: git
     url: https://github.com/ros2/rosidl.git
@@ -343,14 +343,14 @@ repositories:
     type: git
     url: https://github.com/ros2/rosidl_defaults.git
     version: humble
-  ros2/rosidl_python:
-    type: git
-    url: https://github.com/ros2/rosidl_python.git
-    version: humble
-  ros2/rosidl_runtime_py:
-    type: git
-    url: https://github.com/ros2/rosidl_runtime_py.git
-    version: humble
+  # ros2/rosidl_python:
+  #   type: git
+  #   url: https://github.com/ros2/rosidl_python.git
+  #   version: humble
+  # ros2/rosidl_runtime_py:
+  #   type: git
+  #   url: https://github.com/ros2/rosidl_runtime_py.git
+  #   version: humble
   ros2/rosidl_typesupport:
     type: git
     url: https://github.com/ros2/rosidl_typesupport.git
@@ -359,30 +359,30 @@ repositories:
     type: git
     url: https://github.com/ros2/rosidl_typesupport_fastrtps.git
     version: humble
-  ros2/rpyutils:
-    type: git
-    url: https://github.com/ros2/rpyutils.git
-    version: humble
-  ros2/rviz:
-    type: git
-    url: https://github.com/ros2/rviz.git
-    version: humble
+  # ros2/rpyutils:
+  #   type: git
+  #   url: https://github.com/ros2/rpyutils.git
+  #   version: humble
+  # ros2/rviz:
+  #   type: git
+  #   url: https://github.com/ros2/rviz.git
+  #   version: humble
   ros2/spdlog_vendor:
     type: git
     url: https://github.com/ros2/spdlog_vendor.git
     version: humble
-  ros2/sros2:
-    type: git
-    url: https://github.com/ros2/sros2.git
-    version: humble
-  ros2/system_tests:
-    type: git
-    url: https://github.com/ros2/system_tests.git
-    version: humble
-  ros2/test_interface_files:
-    type: git
-    url: https://github.com/ros2/test_interface_files.git
-    version: humble
+  # ros2/sros2:
+  #   type: git
+  #   url: https://github.com/ros2/sros2.git
+  #   version: humble
+  # ros2/system_tests:
+  #   type: git
+  #   url: https://github.com/ros2/system_tests.git
+  #   version: humble
+  # ros2/test_interface_files:
+  #   type: git
+  #   url: https://github.com/ros2/test_interface_files.git
+  #   version: humble
   ros2/tinyxml2_vendor:
     type: git
     url: https://github.com/ros2/tinyxml2_vendor.git
@@ -391,18 +391,18 @@ repositories:
     type: git
     url: https://github.com/ros2/tinyxml_vendor.git
     version: humble
-  ros2/tlsf:
-    type: git
-    url: https://github.com/ros2/tlsf.git
-    version: humble
+  # ros2/tlsf:
+  #   type: git
+  #   url: https://github.com/ros2/tlsf.git
+  #   version: humble
   ros2/unique_identifier_msgs:
     type: git
     url: https://github.com/ros2/unique_identifier_msgs.git
     version: humble
-  ros2/urdf:
-    type: git
-    url: https://github.com/ros2/urdf.git
-    version: humble
+  # ros2/urdf:
+  #   type: git
+  #   url: https://github.com/ros2/urdf.git
+  #   version: humble
   ros2/yaml_cpp_vendor:
     type: git
     url: https://github.com/ros2/yaml_cpp_vendor.git
